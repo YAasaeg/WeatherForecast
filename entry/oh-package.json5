@@ -1,0 +1,17 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {},
+
+  "requestPermissions": [
+    {
+      "name": "ohos.permission.INTERNET"
+      //申请网络权限
+    }
+  ]
+}
+
