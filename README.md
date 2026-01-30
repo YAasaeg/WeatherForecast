@@ -2,7 +2,7 @@
 
 这是一个基于 OpenHarmony 的轻量级天气预报应用程序。它结合了本地 SQLite 数据库存储和高德天气 API，为用户提供查看城市天气预报的功能。
 
-## ✨ 主要功能
+## 主要功能
 
 *   **实时天气查询**
     *   对接高德地图 Web 服务 API，获取精准的实时天气及多日预报
@@ -17,7 +17,7 @@
     *   应用启动自动加载已保存的城市列表，确保数据不丢失
     *   城市增删操作实时同步至本地数据库
 
-## 📱 应用截图
+##  应用截图
 
 <div align="center">
   <img src="screenshots/Index1.png" width="200" alt="首页天气1" />
@@ -25,7 +25,7 @@
   <img src="screenshots/AddCity.png" width="200" alt="添加城市" />
 </div>
 
-## 🛠 技术栈
+##  技术栈
 
 *   **开发语言**: ArkTS (TypeScript)
 *   **UI 框架**: ArkUI (声明式组件)
@@ -34,7 +34,7 @@
 *   **网络通信**: @kit.NetworkKit (HTTP)
 *   **地图服务**: AMap (高德地图) 天气 API
 
-## 📂 项目结构
+##  项目结构
 
 ```
 d:\WeatherForecast
@@ -49,7 +49,7 @@ d:\WeatherForecast
 └── oh_modules/             # 第三方依赖
 ```
 
-## 🚀 快速开始
+##  快速开始
 
 ### 环境要求
 
@@ -70,12 +70,12 @@ d:\WeatherForecast
 *   **网络权限**: 应用已在 `module.json5` 中申请 `ohos.permission.INTERNET` 权限。
 *   **数据库**: 本项目使用本地数据库 `weather.db` 存储城市 adcode，表名为 `weatherlist`。
 
-## 📝 待办事项
+##  待办事项
 
 *   [ ] 增加自动定位并展示当前城市天气功能
 *   [ ] 优化多城市并发请求的加载动画
 *   [ ] 增加极端天气预警推送功能
 
-## 📄 许可证
+## 
 
 本项目仅供学习和演示使用。
